@@ -3,7 +3,6 @@
  * main -Entry point
  *
  * Description: puts phrase
- * @parameter: no parameters
  *
  * Return: Always 0 (Success)
  */
