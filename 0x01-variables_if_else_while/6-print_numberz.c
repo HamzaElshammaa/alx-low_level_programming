@@ -7,7 +7,7 @@
 int main(void)
 {
 int start = 0;
-char ch;
+int ch;
 for (ch = start; ch <= 9; ch++)
 {
 putchar(ch);
