@@ -13,5 +13,6 @@ for (ch = start; ch <= end; ch++)
 {
 putchar(ch);
 }
+putchar('\n');
 return (0);
 }
