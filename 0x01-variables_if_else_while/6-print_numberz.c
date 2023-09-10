@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char start = '0';
+int start = 0;
 char ch;
-for (ch = start; ch <= '9'; ch++)
+for (ch = start; ch <= 9; ch++)
 {
 putchar(ch);
 }
