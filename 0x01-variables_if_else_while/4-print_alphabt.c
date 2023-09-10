@@ -11,7 +11,7 @@ char end = 'z';
 char ch;
 for (ch = start; ch <= end; ch++)
 {
-if (ch != 'q' || ch != 'e')
+if (ch != 65 || ch != 71)
 {
 putchar(ch);
 }
