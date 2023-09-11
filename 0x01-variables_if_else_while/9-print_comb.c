@@ -10,9 +10,9 @@ int ch;
 for (ch = 0; ch <= 9; ch++)
 {
 putchar('0' + ch);
-putchar(',');
 if (ch != 9)
 {
+putchar(',');
 putchar(' ');
 }
 }
