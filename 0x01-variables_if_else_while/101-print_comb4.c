@@ -21,7 +21,7 @@ for (units = ustart; units <= 9; units++)
 putchar('0' + hunds);
 putchar('0' + tens);
 putchar('0' + units);
-if (hunds != 7 && tens != 8)
+if (hunds != 7 && tens != 8 && units != 9)
 {
 putchar(',');
 putchar(' ');
