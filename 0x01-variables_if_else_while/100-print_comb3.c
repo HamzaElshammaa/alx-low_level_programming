@@ -16,7 +16,7 @@ for (ch = ch2; ch <= 9; ch++)
 putchar('0'+ch1);
 putchar('0' + ch);
 }
-ch2++
+ch2++;
 }
 putchar('\n');
 return (0);
