@@ -24,6 +24,7 @@ putchar('0' + units);
 putchar(',');
 putchar(' ');
 }
+ustart++;
 }
 }
 putchar('\n');
