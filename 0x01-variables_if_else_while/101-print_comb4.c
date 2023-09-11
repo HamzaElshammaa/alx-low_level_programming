@@ -12,7 +12,6 @@ int ch2;
 int ch3 = 2;
 int start1 = 0;
 int start2 = 1;
-int start3 = 2;
 for (ch1 = start1; ch1 <= 7; ch1++)
 {
 for (ch2 = start2; ch2 <= 8; ch2++)
