@@ -7,12 +7,12 @@
 int main(void)
 {
 int ch;
-int ch1;
-int ch2;
+int ch1 = 0;
+int ch2 = 1;
 int ch3 = 2;
-for (ch1 = 0; ch1 <= 7; ch1++)
+for (ch1; ch1 <= 7; ch1++)
 {
-for (ch2 = 1; ch2 <= 8; ch2++)
+for (ch2; ch2 <= 8; ch2++)
 {
 for (ch = ch3; ch <= 9; ch++)
 {
