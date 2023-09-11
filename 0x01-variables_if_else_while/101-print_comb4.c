@@ -23,7 +23,7 @@ putchar('0' + tens);
 putchar('0' + units);
 if (hunds != 7 && tens != 8 && units != 9)
 {
-putcahr(',');
+putchar(',');
 putchar(' ');
 }
 }
