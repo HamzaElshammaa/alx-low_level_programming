@@ -30,6 +30,8 @@ ustart++;
 }
 torigin++;
 uorigin++;
+tstart = torigin;
+ustart = uorigin;
 }
 putchar('\n');
 return (0);
