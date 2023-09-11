@@ -8,10 +8,13 @@ int main(void)
 {
 int ch;
 int ch1;
-int ch2 = 1;
-for (ch1 = 0; ch1 <= 8; ch1++)
+int ch2;
+int ch3 = 2;
+for (ch1 = 0; ch1 <= 7; ch1++)
 {
-for (ch = ch2; ch <= 9; ch++)
+for (ch2 = 1; ch2 <= 8; ch2++)
+{
+for (ch = ch3; ch <= 9; ch++)
 {
 putchar('0' + ch1);
 putchar('0' + ch);
@@ -21,7 +24,8 @@ putchar(',');
 putchar(' ');
 }
 }
-ch2++;
+ch3++;
+}
 }
 putchar('\n');
 return (0);
