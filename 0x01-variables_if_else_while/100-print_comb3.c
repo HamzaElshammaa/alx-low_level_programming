@@ -15,7 +15,7 @@ for (ch = ch2; ch <= 9; ch++)
 {
 putchar('0' + ch1);
 putchar('0' + ch);
-if (ch1 != 8 && ch != 9)
+if (ch1 != 8 && ch22 != 9)
 {
 putchar(',');
 putchar(' ');
