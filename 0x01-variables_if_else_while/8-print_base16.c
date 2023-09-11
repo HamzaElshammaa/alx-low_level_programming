@@ -7,11 +7,17 @@
 int main(void)
 {
 char start = '0';
-char end = 'F';
+char end = '9';
 char ch;
+char hex1 = 'a';
+char hex2 = 'f';
 for (ch = start; ch <= end; ch++)
 {
 putchar(ch);
+}
+for (ch = hex1; ch <= hex2; ch++)
+{
+purchar(ch);
 }
 putchar('\n');
 return (0);
