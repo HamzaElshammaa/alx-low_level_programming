@@ -6,30 +6,28 @@
  */
 int main(void)
 {
-int ch;
-int ch1;
-int ch2;
-int ch3 = 2;
-int start1 = 0;
-int start2 = 1;
-for (ch1 = start1; ch1 <= 7; ch1++)
+int units;
+int tens;
+int hunds;
+int ustart = 2;
+int tstart = 1;
+int hstart = 0;
+for (hunds = hstart; hunds <= 7; hunds++)
 {
-for (ch2 = start2; ch2 <= 8; ch2++)
+for (tens = tstart; tens <= 8; tens++)
 {
-for (ch = ch3; ch <= 9; ch++)
+for (units = ustart; units <= 9; units++)
 {
-putchar('0' + ch1);
-putchar('0' + ch2);
-putchar('0' + ch);
-if (ch1 != 7 &&  ch2 != 8 && ch3 != 9)
+putchar('0' + hunds);
+putchar('0' + tens);
+putcahr('0' + units);
+if (hunds != 7 && tens != 8 && units != 9)
 {
-putchar(',');
+putcahr(',');
 putchar(' ');
 }
 }
-ch3++;
 }
-start2++;
 }
 putchar('\n');
 return (0);
