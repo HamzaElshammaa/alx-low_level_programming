@@ -24,8 +24,8 @@ putchar('0' + units);
 putchar(',');
 putchar(' ');
 }
-ustart++;
 }
+ustart++;
 }
 putchar('\n');
 return (0);
