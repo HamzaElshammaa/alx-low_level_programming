@@ -19,7 +19,7 @@ for (ch = ch3; ch <= 9; ch++)
 putchar('0' + ch1);
 putchar('0' + ch2);
 putchar('0' + ch);
-if (ch1 != 8 && ch2 != 9)
+if (ch1 != 7 &&  ch2 != 8 && ch3 != 9)
 {
 putchar(',');
 putchar(' ');
@@ -27,6 +27,7 @@ putchar(' ');
 }
 ch3++;
 }
+ch2++;
 }
 putchar('\n');
 return (0);
