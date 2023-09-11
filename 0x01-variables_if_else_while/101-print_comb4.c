@@ -29,7 +29,7 @@ putchar(' ');
 }
 ch3++;
 }
-ch2++;
+start2++;
 }
 putchar('\n');
 return (0);
