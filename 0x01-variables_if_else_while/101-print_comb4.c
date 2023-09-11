@@ -10,12 +10,12 @@ int ch;
 int ch1;
 int ch2;
 int ch3 = 2;
-int ch1start = 0;
-int ch2start = 1;
-int ch3start = 2;
-for (ch1 = ch1start; ch1 <= 7; ch1++)
+int start1 = 0;
+int start2 = 1;
+int start3 = 2;
+for (ch1 = start1; ch1 <= 7; ch1++)
 {
-for (ch2 = ch2start; ch2 <= 8; ch2++)
+for (ch2 = start2; ch2 <= 8; ch2++)
 {
 for (ch = ch3; ch <= 9; ch++)
 {
