@@ -13,10 +13,13 @@ for (ch1 = 0; ch1 <= 8; ch1++)
 {
 for (ch = ch2; ch <= 9; ch++)
 {
-putchar('0'+ch1);
+putchar('0' + ch1);
 putchar('0' + ch);
+if (ch1 != 8 && ch != 9)
+{
 putchar(',');
 putchar(' ');
+}
 }
 ch2++;
 }
