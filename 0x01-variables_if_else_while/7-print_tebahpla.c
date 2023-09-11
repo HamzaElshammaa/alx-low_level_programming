@@ -11,10 +11,7 @@ char end = 'a';
 char ch;
 for (ch = start; ch >= end; ch--)
 {
-if (ch != 'e' && ch != 'q')
-{
 putchar(ch);
-}
 }
 putchar('\n');
 return (0);
