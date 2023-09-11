@@ -9,9 +9,11 @@ int main(void)
 int units;
 int tens;
 int hunds;
-int ustart = 2;
-int tstart = 1;
 int hstart = 0;
+int uorigin = 2;
+int torigin = 1;
+int ustart = uorigin;
+int tstart = torigin;
 for (hunds = hstart; hunds <= 7; hunds++)
 {
 for (tens = tstart; tens <= 8; tens++)
@@ -26,6 +28,8 @@ putchar(' ');
 }
 ustart++;
 }
+torigin++;
+uorigin++;
 }
 putchar('\n');
 return (0);
