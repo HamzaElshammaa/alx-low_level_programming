@@ -17,7 +17,7 @@ putchar(ch);
 }
 for (ch = hex1; ch <= hex2; ch++)
 {
-purchar(ch);
+putchar(ch);
 }
 putchar('\n');
 return (0);
