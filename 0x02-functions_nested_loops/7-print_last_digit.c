@@ -7,6 +7,7 @@
  * Return: value of last digit
  */
 int print_last_digit(int n)
+int digit;
 {
 if (n < 0)
 {
