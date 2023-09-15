@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * _islower - check the code
  *
