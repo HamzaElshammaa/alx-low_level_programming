@@ -3,14 +3,14 @@
 #include "main.h"
 
 /**
- * _isupper - check the code
+ * _islower - check the code
  *
  * @c: the num to check
  * Return: Always 0.
  */
-int _isupper(int c)
+int _islower(int c)
 {
-if (isupper(c))
+if (islower(c))
 {
 return (1);
 }
