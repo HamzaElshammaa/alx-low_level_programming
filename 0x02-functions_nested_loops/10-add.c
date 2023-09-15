@@ -3,31 +3,18 @@
 #include <stdlib.h>
 
 /**
- * times_table - Entry point
+ * add - Entry point
+ *
+ * @a: value 1
+ * @b: value 2
  *
  * Return: Always 0 (Success)
  */
 
-void times_table(void)
+int add(int a, int b)
 {
-	int i;
-	int j;
-	int result;
+	int c;
 
-	for (i = 0; i <= 9; i++)
-	{
-		for (j = 0; j <= 9; j++)
-		{
-			result = i * j;
-			if (j == 0)
-			{
-				printf("%d", result);
-			}
-			else
-			{
-				printf(", %2d", result);
-			}
-		}
-		printf("\n");
-	}
+	c = a + b;
+	return (c);
 }
