@@ -1,7 +1,7 @@
-#include "main.h"
 #include <stdio.h>
 #include <ctype.h>
-#include <main.h>
+#include "main.h"
+
 /**
  * _islower - check the code
  *
