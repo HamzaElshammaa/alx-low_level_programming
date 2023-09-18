@@ -15,6 +15,5 @@ for (i = counter; i >= 0; i--)
 {
 putchar(s[i]);
 }
-putchar('\n');
 return;
 }
