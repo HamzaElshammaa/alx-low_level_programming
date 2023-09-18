@@ -10,12 +10,16 @@
 void print_rev(char *s)
 {
 int i;
-int len = strlen(s);
-char *tmp = s + len - 1;
-for (i = len - 1; i >= 0; i--)
+int counter = 0;
+char rev = s[0];
+while (s[counte]r != '\0')
+counter++;
+for (i = 0; i < counter; i++)
 {
-putchar(tmp[i]);
+	counter--;
+	rev = s[i];
+	s[i] = s[counter];
+	s[counter] = rev;
 }
-putchar('\n');
 return;
 }
