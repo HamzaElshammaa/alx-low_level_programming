@@ -21,5 +21,6 @@ for (i = 0; i < counter; i++)
 	s[i] = s[counter];
 	s[counter] = rev;
 }
+_puts(rev);
 return;
 }
