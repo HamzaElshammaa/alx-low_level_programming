@@ -7,20 +7,25 @@
  * @s: variable
  * Return: always 0
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
-int i;
-int counter = 0;
-char rev = s[0];
-while (s[counter] != '\0')
-counter++;
-for (i = 0; i < counter; i++)
-{
-	counter--;
-	rev = s[i];
-	s[i] = s[counter];
-	s[counter] = rev;
-}
-_puts(rev);
-return;
+	char tmp;
+	int i, len, len1;
+
+	len = 0;
+	len1 = 0;
+
+	while (s[len] != '\0')
+	{
+		len++;
+	}
+
+	len1 = len - 1;
+
+	for (i = 0; i < len / 2; i++)
+	{
+		tmp = s[i];
+		s[i] = s[len1];
+		s[len1--] = tmp;
+	}
 }
