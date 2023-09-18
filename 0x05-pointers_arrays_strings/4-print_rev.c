@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * rev_string - Reverses a string
+ * print_rev - Reverses a string
  * @s: Input string
  * Return: String in reverse
  */
@@ -22,4 +22,9 @@ void print_rev(char *s)
 		s[i] = s[counter];
 		s[counter] = rev;
 	}
+while (s[counter] != '\0')
+counter++;
+for (i = 0; i < counter; i ++)
+putchar(s[i]);
+return;
 }
