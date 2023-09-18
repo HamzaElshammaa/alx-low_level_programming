@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - Check code
- * @n - num 
+ * @n: number to change
  * Return - Always 0
  */
 void reset_to_98(int *n)
