@@ -11,11 +11,10 @@ void print_rev(char *s)
 {
 int i;
 int len = strlen(s);
-char rev = (char *)malloc((len + 1)* sizeof(char));
-for (i = 0; i < len; i++)
+char *tmp = s + len - 1;
+for (i = len; i > 0; i--)
 {
-rev[i] = s[len - 1 - i];
+putchar(tmp[i]);
 }
-puts(rev);
 return;
 }
