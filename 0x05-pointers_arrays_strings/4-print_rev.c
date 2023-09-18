@@ -16,6 +16,6 @@ for (i = (len - 1); i > 0; i--)
 {
 putchar(tmp[i]);
 }
-putchar("/n");
+putchar('/n');
 return;
 }
