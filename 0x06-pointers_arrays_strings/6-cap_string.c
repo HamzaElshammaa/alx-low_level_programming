@@ -16,30 +16,43 @@ switch (str[i])
 {
 case ' ':
 	str[i] = ' ';
+	break;
 case '\n':
 	str[i] = ' ';
+	break;
 case ',':
 	str[i] = ' ';
+	break;
 case ';':
 	str[i] = ' ';
+	break;
 case '.':
 	str[i] = ' ';
+	break;
 case '!':
 	str[i] = ' ';
+	break;
 case '?':
 	str[i] = ' ';
+	break;
 case '"':
 	str[i] = ' ';
+	break;
 case '(':
 	str[i] = ' ';
+	break;
 case ')':
 	str[i] = ' ';
+	break;
 case '{':
 	str[i] = ' ';
+	break;
 case '}':
 	str[i] = ' ';
+	break;
 default:
 	str[i] = str[i] - 32;
+	break;
 }
 i++;
 }
