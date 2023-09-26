@@ -13,8 +13,7 @@ char tmp;
 while (*c != '\0')
 {
 tmp = *c;
-toupper(tmp);
-*c = tmp;
+*c = toupper((unsigned char)*c);
 c++;
 }
 return (start);
