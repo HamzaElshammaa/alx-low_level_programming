@@ -1,16 +1,16 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-#include <ctype.h>
-#include "main.h"
+/* more headers goes there */
 
 /**
- * _islower - check the code
- *
- * @c: the num to check
- * Return: Always 0.
+ * _isupper - Entry point
+ *@c: parameter
+ * Return: Always 0 (Success)
  */
-int _islower(int c)
+int _isupper(int c)
 {
-if (islower(c))
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
