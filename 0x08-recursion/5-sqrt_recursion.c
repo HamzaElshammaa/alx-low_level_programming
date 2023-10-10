@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "main.h"
 #include <math.h>
+#include "main.h"
 /**
  * _sqrt_recursion - check the code
  * @n: int
@@ -8,8 +8,9 @@
  */
 int _sqrt_recursion(int n)
 {
+int result;
 if (n < 0)
 return (-1);
-int result;
-result = sqrt(n);
+result = (int) sqrt(n);
 return (result);
+}
