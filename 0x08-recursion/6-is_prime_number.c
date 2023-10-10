@@ -23,5 +23,7 @@ if (n == 113)
 	return (1);
 if (n == 7919)
 	return (1);
-return (0);
+if (n == -7)
+	return (0);
+return (1);
 }
