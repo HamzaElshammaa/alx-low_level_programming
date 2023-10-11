@@ -10,17 +10,13 @@
  */
 void free_grid(int **grid, int height)
 {
-int i, j, width;
-width = (int)sizeof(grid[0]) / (int)sizeof(grid[0][0]);
-i = j = 0;
+int i;
+i = 0;
 while (i < height)
 {
-while (j < width)
-{
-free(grid[i][j]);
-j++;
+free(grid[i]);
+i++;
 }
-i++, j++;
-}
+free(grid);
 return;
 }
