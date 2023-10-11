@@ -15,7 +15,7 @@ int i;
 int j;
 if (width <= 0 || height <= 0)
 	return (NULL);
-arrayrows = malloc(sizeof(int) * width);
+arrayrows = malloc(sizeof(int *) * width);
 if (arrayrows == NULL)
 	return (NULL);
 for (i = 0; i < width; i++)
