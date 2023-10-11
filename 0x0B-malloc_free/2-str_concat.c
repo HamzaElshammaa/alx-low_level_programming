@@ -24,6 +24,11 @@ else if (s2 == NULL)
 size1 = strlen(s1);
 size2 = 0;
 }
+else if (s1 == NULL && s2 == NULL)
+{
+s1 = 0;
+s2 = 0;
+}
 else
 {
 size1 = strlen(s1);
