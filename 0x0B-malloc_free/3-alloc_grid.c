@@ -26,7 +26,9 @@ arrayrows[i] = malloc(sizeof(int) * width);
 if (arrayrows[i] == NULL)
 {
 for (; i >= 0; i--)
+{
 free(arrayrows[i]);
+}
 free(arrayrows);
 return (NULL);
 }
