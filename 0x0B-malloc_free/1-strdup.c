@@ -15,7 +15,7 @@ int size;
 if (str == NULL)
 return (NULL);
 size = strlen(str);
-dup = malloc(sizeof(char) * size);
+dup = malloc(sizeof(char) * size + 1);
 if (dup == NULL)
 return (NULL);
 for (i = 0; i < size; i++)
