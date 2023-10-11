@@ -17,7 +17,7 @@ if (width <= 0 || height <= 0)
 return (NULL);
 arrayrows = malloc(sizeof(int *) * width);
 if (arrayrows == NULL)
-{	
+{
 free(arrayrows);
 return (NULL);
 }
