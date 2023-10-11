@@ -30,6 +30,8 @@ size1 = strlen(s1);
 size2 = strlen(s2);
 }
 res = malloc((sizeof(char) * size1) +(sizeof(char) * size2) +1);
+if (res == NULL)
+	return (NULL);
 for (i = 0; i < size1; i++)
 {
 res[i] = s1[i];
