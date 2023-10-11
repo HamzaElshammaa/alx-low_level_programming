@@ -14,12 +14,12 @@ int **arrayrows;
 int i;
 int j;
 if (width <= 0 || height <= 0)
-	return (NULL);
+return (NULL);
 arrayrows = malloc(sizeof(int *) * width);
 if (arrayrows == NULL)
 {	
-	free(arrayrows);
-	return (NULL);
+free(arrayrows);
+return (NULL);
 }
 for (i = 0; i < width; i++)
 {
