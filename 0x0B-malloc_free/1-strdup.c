@@ -16,6 +16,8 @@ if (str == NULL)
 return (NULL);
 size = strlen(str);
 dup = malloc(sizeof(char) * size);
+if (dup == NULL)
+return (NULL);
 for (i = 0; i < size; i++)
 {
 dup[i] = str[i];
